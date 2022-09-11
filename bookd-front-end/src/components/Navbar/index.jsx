@@ -21,16 +21,13 @@ const Navbar = () => {
         <Bars />
         <NavMenu>
           <NavLink to='/about' activeStyle>
-            About
-          </NavLink>
-          <NavLink to='/services' activeStyle>
-            Services
+            Search
           </NavLink>
           <NavLink to='/contact-us' activeStyle>
-            Contact Us
+            Favourites
           </NavLink>
           <NavLink to='/sign-up' activeStyle>
-            Sign Up
+            Bookings
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
