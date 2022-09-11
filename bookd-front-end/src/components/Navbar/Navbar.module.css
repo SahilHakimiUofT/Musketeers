@@ -1,0 +1,9 @@
+.logo {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  .logo__image {
+    width: 5rem;
+  }

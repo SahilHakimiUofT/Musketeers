@@ -1,23 +1,19 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import NavBar from "./layouts/NavBar.jsx";
-import HomePage from "./pages/Home/HomePage";
-import LandingCard from "./components/card/LandingCard";
+import React from 'react';
+import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/Home/HomePage.jsx';
+import About from './pages/about';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route index element={<HomePage />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact element={<HomePage/>} />
+        <Route path='/about' element={<About/>} />
+      </Routes>
+    </Router>
   );
 }
 
