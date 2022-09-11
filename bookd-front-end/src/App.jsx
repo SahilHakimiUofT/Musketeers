@@ -4,6 +4,8 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./layouts/NavBar.jsx";
 import HomePage from "./pages/Home/HomePage";
+import LandingCard from "./components/card/LandingCard";
+
 function App() {
   const [count, setCount] = useState(0);
 
