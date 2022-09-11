@@ -25,9 +25,7 @@ export const NavLink = styled(Link)`
     color: #15cdfc;
   }
 `;
-export const NavLinkLogo = styled(Link)`
-  width: 4rem;
-`;
+
 
 export const Bars = styled(FaBars)`
   display: none;
@@ -71,7 +69,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #256ce1;
+  background: #EA3C3C;
   padding: 10px 22px;
   color: #fff;
   outline: none;

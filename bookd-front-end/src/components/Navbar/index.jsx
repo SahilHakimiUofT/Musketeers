@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../../assets/Bookdtransparent.png'
+import classes from "./Navbar.module.css";
+
 import {
   Nav,
   NavLink,
@@ -14,7 +16,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to='/'>
-          <img src={logo} alt='logo' /> 
+        <img className={classes.logo__image} src={logo} alt="Bookd Logo" />
         </NavLink>
         <Bars />
         <NavMenu>
